@@ -1,0 +1,604 @@
+@startuml
+!pragma graphviz_dot jdot
+title __JADVISOR's Class Diagram__\n
+
+  package jadvisor.advisorui {
+    class Advisor {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class Advisor {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class AdvisorDialogs {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class AdvisorDialogs {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class AdvisorMenu {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class AdvisorMenu {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class AdvisorUI {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class AdvisorUI {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class Course {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class Course {
+    }
+  }
+  
+
+  package jadvisor.planner {
+    class Curriculum {
+    }
+  }
+  
+
+  package jadvisor.planner {
+    class Curriculum {
+    }
+  }
+  
+
+  package jadvisor.school {
+    class DefaultSchoolAdapter {
+    }
+  }
+  
+
+  package jadvisor.school {
+    class DefaultSchoolAdapter {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class FileUtility {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class FileUtility {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class HTMLGenerator {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class HTMLGenerator {
+    }
+  }
+  
+
+  package jadvisor.school {
+    class NCSU {
+    }
+  }
+  
+
+  package jadvisor.school {
+    class NCSU {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class PlanViewCellRenderer {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class PlanViewCellRenderer {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class PlanViewPanel {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class PlanViewPanel {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class PlanViewSemesterPanel {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class PlanViewSemesterPanel {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class PlannerUI {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class PlannerUI {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class ScheduleGraph {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class ScheduleGraph {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class ScheduleGraphUI {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class ScheduleGraphUI {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class ScheduleWizard {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class ScheduleWizard {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class ScheduleWizardUI {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class ScheduleWizardUI {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class SchedulerUI {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class SchedulerUI {
+    }
+  }
+  
+
+  package jadvisor.school {
+    interface SchoolAdapter {
+    }
+  }
+  
+
+  package jadvisor.school {
+    interface SchoolAdapter {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class SearchUI {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class SearchUI {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class SplashWindow {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class SplashWindow {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class StudentBlock {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class StudentBlock {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class StudentBlockUI {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    class StudentBlockUI {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class StudentClass {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class StudentClass {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class StudentFile {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class StudentFile {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class StudentInfo {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class StudentInfo {
+    }
+  }
+  
+
+  package jadvisor.planner {
+    class StudentPlan {
+    }
+  }
+  
+
+  package jadvisor.planner {
+    class StudentPlan {
+    }
+  }
+  
+
+  package jadvisor.planner {
+    interface StudentPlanListener {
+    }
+  }
+  
+
+  package jadvisor.planner {
+    interface StudentPlanListener {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class StudentSchedule {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class StudentSchedule {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    interface StudentScheduleListener {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    interface StudentScheduleListener {
+    }
+  }
+  
+
+  package jadvisor.planner {
+    class StudentSemesterPlan {
+    }
+  }
+  
+
+  package jadvisor.planner {
+    class StudentSemesterPlan {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    abstract class SwingWorker {
+    }
+  }
+  
+
+  package jadvisor.advisorui {
+    abstract class SwingWorker {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class TimeOfDay {
+    }
+  }
+  
+
+  package jadvisor.scheduler {
+    class TimeOfDay {
+    }
+  }
+  
+
+  package jadvisor.school {
+    class UNC {
+    }
+  }
+  
+
+  package jadvisor.school {
+    class UNC {
+    }
+  }
+  
+
+  Advisor o-- AdvisorUI : _advisorUI
+  Advisor o-- StudentInfo : _studentInfo
+  Advisor o-- StudentFile : _studentFile
+  Advisor o-- StudentSchedule : _schedule
+  Advisor o-- StudentPlan : _studentPlan
+  Advisor o-- SchoolAdapter : _schoolAdapter
+  Advisor o-- AdvisorUI : _advisorUI
+  Advisor o-- StudentInfo : _studentInfo
+  Advisor o-- StudentFile : _studentFile
+  Advisor o-- StudentSchedule : _schedule
+  Advisor o-- StudentPlan : _studentPlan
+  Advisor o-- SchoolAdapter : _schoolAdapter
+  AdvisorMenu -up-|> ActionListener
+  AdvisorMenu -up-|> ItemListener
+  AdvisorMenu -up-|> JMenuBar
+  AdvisorMenu o-- Advisor : _advisor
+  AdvisorMenu o-- AdvisorUI : _advisorUI
+  AdvisorMenu -up-|> ActionListener
+  AdvisorMenu -up-|> ItemListener
+  AdvisorMenu -up-|> JMenuBar
+  AdvisorMenu o-- Advisor : _advisor
+  AdvisorMenu o-- AdvisorUI : _advisorUI
+  AdvisorUI -up-|> JFrame
+  AdvisorUI o-- Advisor : _advisor
+  AdvisorUI o-- AdvisorMenu : _menu
+  AdvisorUI o-- SchedulerUI : _scheduler
+  AdvisorUI o-- PlannerUI : _planner
+  AdvisorUI o-- SearchUI : _search
+  AdvisorUI o-- SchoolAdapter : _schoolAdapter
+  AdvisorUI -up-|> JFrame
+  AdvisorUI o-- Advisor : _advisor
+  AdvisorUI o-- AdvisorMenu : _menu
+  AdvisorUI o-- SchedulerUI : _scheduler
+  AdvisorUI o-- PlannerUI : _planner
+  AdvisorUI o-- SearchUI : _search
+  AdvisorUI o-- SchoolAdapter : _schoolAdapter
+  Course -up-|> Serializable
+  Course -up-|> Serializable
+  Curriculum -up-|> ListModel
+  Curriculum -up-|> ListModel
+  DefaultSchoolAdapter -up-|> SchoolAdapter
+  DefaultSchoolAdapter -up-|> SchoolAdapter
+  NCSU -up-|> SchoolAdapter
+  NCSU -up-|> SchoolAdapter
+  PlanViewCellRenderer -up-|> ListCellRenderer
+  PlanViewCellRenderer -up-|> JLabel
+  PlanViewCellRenderer o-- StudentPlan : _studentPlan
+  PlanViewCellRenderer -up-|> ListCellRenderer
+  PlanViewCellRenderer -up-|> JLabel
+  PlanViewCellRenderer o-- StudentPlan : _studentPlan
+  PlanViewPanel -up-|> JPanel
+  PlanViewPanel o-- PlannerUI : _plannerUI
+  PlanViewPanel o-- StudentPlan : _plan
+  PlanViewPanel o-- SchoolAdapter : _schoolAdapter
+  PlanViewPanel -up-|> JPanel
+  PlanViewPanel o-- PlannerUI : _plannerUI
+  PlanViewPanel o-- StudentPlan : _plan
+  PlanViewPanel o-- SchoolAdapter : _schoolAdapter
+  PlanViewSemesterPanel -up-|> JPanel
+  PlanViewSemesterPanel o-- StudentPlan : _plan
+  PlanViewSemesterPanel o-- PlanViewPanel : _planViewPanel
+  PlanViewSemesterPanel o-- SchoolAdapter : _schoolAdapter
+  PlanViewSemesterPanel o-- PlanViewCellRenderer : _planViewCellRenderer
+  PlanViewSemesterPanel -up-|> JPanel
+  PlanViewSemesterPanel o-- StudentPlan : _plan
+  PlanViewSemesterPanel o-- PlanViewPanel : _planViewPanel
+  PlanViewSemesterPanel o-- SchoolAdapter : _schoolAdapter
+  PlanViewSemesterPanel o-- PlanViewCellRenderer : _planViewCellRenderer
+  PlannerUI -up-|> JPanel
+  PlannerUI o-- AdvisorUI : _advisorUI
+  PlannerUI o-- StudentPlan : _studentPlan
+  PlannerUI o-- SchoolAdapter : _schoolAdapter
+  PlannerUI o-- PlanViewPanel : _coursesListPane
+  PlannerUI -up-|> JPanel
+  PlannerUI o-- AdvisorUI : _advisorUI
+  PlannerUI o-- StudentPlan : _studentPlan
+  PlannerUI o-- SchoolAdapter : _schoolAdapter
+  PlannerUI o-- PlanViewPanel : _coursesListPane
+  ScheduleGraph -up-|> JTextPane
+  ScheduleGraph o-- StudentSchedule : _schedule
+  ScheduleGraph o-- SchoolAdapter : _schoolAdapter
+  ScheduleGraph -up-|> JTextPane
+  ScheduleGraph o-- StudentSchedule : _schedule
+  ScheduleGraph o-- SchoolAdapter : _schoolAdapter
+  ScheduleGraphUI -up-|> JFrame
+  ScheduleGraphUI o-- StudentSchedule : _schedule
+  ScheduleGraphUI o-- SchoolAdapter : _schoolAdapter
+  ScheduleGraphUI o-- ScheduleGraph : _scheduleGraph
+  ScheduleGraphUI -up-|> JFrame
+  ScheduleGraphUI o-- StudentSchedule : _schedule
+  ScheduleGraphUI o-- SchoolAdapter : _schoolAdapter
+  ScheduleGraphUI o-- ScheduleGraph : _scheduleGraph
+  ScheduleWizard o-- SchoolAdapter : _schoolAdapter
+  ScheduleWizard o-- TimeOfDay : _noClassBeforeTime
+  ScheduleWizard o-- TimeOfDay : _noClassAfterTime
+  ScheduleWizard o-- SchoolAdapter : _schoolAdapter
+  ScheduleWizard o-- TimeOfDay : _noClassBeforeTime
+  ScheduleWizard o-- TimeOfDay : _noClassAfterTime
+  ScheduleWizardUI -up-|> JDialog
+  ScheduleWizardUI o-- ScheduleWizard : _scheduleWizard
+  ScheduleWizardUI o-- SchoolAdapter : _schoolAdapter
+  ScheduleWizardUI o-- StudentSchedule : _schedule
+  ScheduleWizardUI o-- StudentPlan : _studentPlan
+  ScheduleWizardUI o-- ScheduleGraph : _scheduleGraph
+  ScheduleWizardUI -up-|> JDialog
+  ScheduleWizardUI o-- ScheduleWizard : _scheduleWizard
+  ScheduleWizardUI o-- SchoolAdapter : _schoolAdapter
+  ScheduleWizardUI o-- StudentSchedule : _schedule
+  ScheduleWizardUI o-- StudentPlan : _studentPlan
+  ScheduleWizardUI o-- ScheduleGraph : _scheduleGraph
+  SchedulerUI -up-|> JPanel
+  SchedulerUI o-- StudentSchedule : _schedule
+  SchedulerUI o-- StudentPlan : _studentPlan
+  SchedulerUI o-- StudentInfo : _studentInfo
+  SchedulerUI o-- SchoolAdapter : _schoolAdapter
+  SchedulerUI -up-|> JPanel
+  SchedulerUI o-- StudentSchedule : _schedule
+  SchedulerUI o-- StudentPlan : _studentPlan
+  SchedulerUI o-- StudentInfo : _studentInfo
+  SchedulerUI o-- SchoolAdapter : _schoolAdapter
+  SchedulerUI o-- ScheduleTableModel : _scheduleTableModel
+  SearchUI -up-|> JPanel
+  SearchUI o-- SchoolAdapter : _schoolAdapter
+  SearchUI -up-|> JPanel
+  SearchUI o-- SchoolAdapter : _schoolAdapter
+  SplashWindow -up-|> JWindow
+  SplashWindow -up-|> JWindow
+  StudentBlock -up-|> Serializable
+  StudentBlock o-- TimeOfDay : _startTime
+  StudentBlock o-- TimeOfDay : _endTime
+  StudentBlock -up-|> Serializable
+  StudentBlock o-- TimeOfDay : _startTime
+  StudentBlock o-- TimeOfDay : _endTime
+  StudentBlockUI -up-|> JDialog
+  StudentBlockUI o-- SchoolAdapter : _schoolAdapter
+  StudentBlockUI o-- StudentSchedule : _schedule
+  StudentBlockUI -up-|> JDialog
+  StudentBlockUI o-- SchoolAdapter : _schoolAdapter
+  StudentBlockUI o-- StudentSchedule : _schedule
+  StudentClass -up-|> Serializable
+  StudentClass -up-|> StudentBlock
+  StudentClass o-- Course : _course
+  StudentClass -up-|> Serializable
+  StudentClass -up-|> StudentBlock
+  StudentClass o-- Course : _course
+  StudentFile -up-|> Serializable
+  StudentFile o-- StudentInfo : _studentInfo
+  StudentFile o-- StudentSchedule : _studentSchedule
+  StudentFile o-- StudentPlan : _studentPlan
+  StudentFile -up-|> Serializable
+  StudentFile o-- StudentInfo : _studentInfo
+  StudentFile o-- StudentSchedule : _studentSchedule
+  StudentFile o-- StudentPlan : _studentPlan
+  StudentInfo -up-|> Serializable
+  StudentInfo -up-|> Serializable
+  StudentPlan -up-|> Serializable
+  StudentPlan -up-|> Serializable
+  StudentSchedule -up-|> Serializable
+  StudentSchedule -up-|> Serializable
+  StudentSemesterPlan -up-|> ListModel
+  StudentSemesterPlan -up-|> Serializable
+  StudentSemesterPlan -up-|> ListModel
+  StudentSemesterPlan -up-|> Serializable
+  SwingWorker o-- ThreadVar : threadVar
+  TimeOfDay -up-|> Comparable
+  TimeOfDay -up-|> Serializable
+  TimeOfDay -up-|> Comparable
+  TimeOfDay -up-|> Serializable
+  UNC -up-|> SchoolAdapter
+  UNC -up-|> SchoolAdapter
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
